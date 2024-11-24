@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { PropsWithChildren } from "react";
 
-import Header from "@/components/Header";
-import Sidebar from "@/components/Sidebar";
+import { Header, Sidebar } from "@/components";
 
 export const metadata: Metadata = {
   title: "Soar Task",
@@ -20,10 +19,12 @@ export default function RootLayout({ children }: PropsWithChildren) {
         </style>
       </head>
       <body className="inter-regular min-h-screen text-black">
-        <div className="grid grid-cols-[250px_1fr] grid-rows-[100px_1fr] min-h-screen">
+        <div className="flex flex-col sm:grid sm:grid-cols-[250px_1fr] sm:grid-rows-[100px_1fr] min-h-screen">
           <Header />
           <Sidebar />
-          <main className="py-8 px-10 bg-secondary">{children}</main>
+          <main className="grow col-span-2 sm:col-span-1 py-container sm:py-big-container px-6 sm:px-10 bg-secondary">
+            {children}
+          </main>
         </div>
       </body>
     </html>

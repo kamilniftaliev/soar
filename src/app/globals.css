@@ -22,3 +22,11 @@
   font-weight: 600;
   font-style: normal;
 }
+
+.line-below {
+  @apply relative after:absolute after:w-full after:left-0 after:bottom-0 after:h-0.5 after:sm:h-1 text-black after:bg-black after:rounded-t-[10];
+}
+
+.line-left {
+  @apply relative before:absolute before:h-full before:top-0 before:left-0 before:w-1.5 before:bg-black before:rounded-r-[10];
+}

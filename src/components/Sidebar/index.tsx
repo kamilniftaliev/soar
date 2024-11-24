@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-import Routes from "./Routes";
+import { Routes } from "./Routes";
 import { Logo } from "@/icons";
 
-export default function Sidebar() {
+export function Sidebar() {
   return (
-    <aside className="row-start-1 row-span-2 border-r border-border">
+    <aside className="hidden sm:block row-start-1 row-span-2 border-r border-gray">
       <Link href="/" className="flex gap-3 items-center my-8 mx-9">
         <Logo className="text-black" />
         <span className="font-extrabold text-primary text-2xl">Soar Task</span>
