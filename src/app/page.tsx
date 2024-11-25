@@ -1,4 +1,5 @@
 import { Cards } from "./dashboard/Cards";
+import { ExpenseStatistics } from "./dashboard/ExpenseStatistics";
 import { RecentTransaction } from "./dashboard/RecentTransaction";
 import { SectionTitle } from "./dashboard/SectionTitle";
 import { WeeklyActivity } from "./dashboard/WeeklyActivity";
@@ -9,9 +10,7 @@ export default function Dashboard() {
       <Cards />
       <RecentTransaction />
       <WeeklyActivity />
-      <div>
-        <SectionTitle>Expense Statistics</SectionTitle>
-      </div>
+      <ExpenseStatistics />
       <div>
         <SectionTitle>Quick Transfer</SectionTitle>
       </div>
