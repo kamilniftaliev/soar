@@ -14,6 +14,9 @@ export default {
         "color-sky": "#718EBF",
         blue: "#396AFF",
         azure: "#DFEAF2",
+        manatee: "#9199AF",
+        "received-money": "#41D4A8",
+        "spent-money": "#FF4B4A",
       },
       borderRadius: {
         input: "40px",
@@ -23,9 +26,13 @@ export default {
       },
       fontSize: {
         small: "15px",
+        xs: ["12px", "14px"],
         sm: ["13px", "15px"],
+        rg: ["15px", "18px"],
         md: ["16px", "19px"],
+        "2md": ["17px", "20px"],
         xl: ["20px", "24px"],
+        "2xl": ["22px", "26px"],
       },
       lineHeight: {
         input: "18px",
@@ -33,6 +40,13 @@ export default {
       padding: {
         container: "25px",
         "big-container": "30px",
+      },
+      gap: {
+        md: "20px",
+        lg: "30px",
+      },
+      height: {
+        card: "235px",
       },
     },
   },

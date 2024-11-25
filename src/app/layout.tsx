@@ -16,9 +16,11 @@ export default function RootLayout({ children }: PropsWithChildren) {
         <style>
           @import
           url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+          @import
+          url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
         </style>
       </head>
-      <body className="inter-regular min-h-screen text-black">
+      <body className="inter font-normal min-h-screen text-black">
         <div className="flex flex-col sm:grid sm:grid-cols-[250px_1fr] sm:grid-rows-[100px_1fr] min-h-screen">
           <Header />
           <Sidebar />
