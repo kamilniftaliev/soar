@@ -55,11 +55,7 @@ export function WeeklyActivity() {
   return (
     <div className="col-span-2">
       <SectionTitle>Weekly Activity</SectionTitle>
-      <ResponsiveContainer
-        className="bg-white rounded-container py-5 mt-5"
-        width="100%"
-        height={300}
-      >
+      <ResponsiveContainer className="white-section" width="100%" height={300}>
         <BarChart
           width={500}
           height={300}

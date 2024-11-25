@@ -17,13 +17,13 @@ export function Header() {
       />
       <Link
         href="#"
-        className="hidden sm:block w-[50px] order-3 sm:order-none aspect-square group rounded-full bg-secondary p-3"
+        className="hidden sm:block w-circle-btn order-3 sm:order-none aspect-square group rounded-full bg-secondary p-3"
       >
         <SettingsIcon className="text-color-sky group-hover:text-blue" />
       </Link>
       <Link
         href="#"
-        className="hidden sm:block w-[50px] order-3 sm:order-none aspect-square group rounded-full bg-secondary p-3"
+        className="hidden sm:block w-circle-btn order-3 sm:order-none aspect-square group rounded-full bg-secondary p-3"
       >
         <NotificationIcon className="text-color-sky group-hover:text-blue" />
       </Link>

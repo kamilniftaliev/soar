@@ -6,7 +6,7 @@ export function RecentTransaction() {
   return (
     <div>
       <SectionTitle>Recent Transaction</SectionTitle>
-      <div className="flex flex-col gap-2.5 mt-5 bg-white rounded-container p-container">
+      <div className="flex flex-col gap-2.5 white-section p-container">
         {TRANSACTIONS.map(
           ({ id, Icon, color, bgColor, title, date, amount, action }) => (
             <div key={id} className="flex items-center">

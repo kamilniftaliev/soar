@@ -48,6 +48,9 @@ export default {
       height: {
         card: "235px",
       },
+      width: {
+        "circle-btn": "50px",
+      },
     },
   },
   plugins: [],

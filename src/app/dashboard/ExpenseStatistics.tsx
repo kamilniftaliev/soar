@@ -43,11 +43,7 @@ export function ExpenseStatistics() {
   return (
     <div>
       <SectionTitle>Expense Statistics</SectionTitle>
-      <ResponsiveContainer
-        width="100%"
-        height={300}
-        className="bg-white rounded-container py-5 mt-5"
-      >
+      <ResponsiveContainer width="100%" height={300} className="white-section">
         <PieChart width={400} height={400}>
           <Pie
             data={data}

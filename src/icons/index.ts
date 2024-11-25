@@ -16,3 +16,5 @@ export * from "./Pen";
 export * from "./CardToCard";
 export * from "./Money";
 export * from "./PayPal";
+export * from "./ArrowRight";
+export * from "./Send";
