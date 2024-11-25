@@ -1,9 +1,15 @@
 import { CardToCardIcon, MoneyIcon, PayPalIcon } from "@/icons";
 
-export const currency = new Intl.NumberFormat("en-US", {
+export const currencyFormatter = new Intl.NumberFormat("en-US", {
   style: "currency",
   currency: "USD",
   maximumSignificantDigits: 3,
+});
+
+export const dateFormatter = new Intl.DateTimeFormat("en-US", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
 });
 
 export const TRANSACTIONS = [

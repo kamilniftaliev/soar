@@ -11,7 +11,7 @@
 }
 
 .line-below {
-  @apply relative after:absolute after:w-full after:left-0 after:bottom-0 after:h-0.5 after:sm:h-1 text-black after:bg-black after:rounded-t-[10];
+  @apply relative after:absolute after:w-full after:left-0 after:bottom-0 after:h-0.5 after:lg:h-1 text-black after:bg-black after:rounded-t-[10];
 }
 
 .line-left {

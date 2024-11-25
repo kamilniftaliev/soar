@@ -2,7 +2,61 @@
 
 Soar dashboard and settings pages
 
-### Figma URL:
+## Screenshots
+
+#### Dashboard
+
+<table>
+  <tr>
+    <th>Expected</th>
+    <th>Reality</th>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/dashboard-desktop-figma.png" /></td>
+    <td><img src="./screenshots/dashboard-desktop-real.jpg" /></td>
+  </tr>
+</table>
+
+#### Setting
+
+<table>
+  <tr>
+    <th>Expected</th>
+    <th>Reality</th>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/setting-desktop-figma.png" /></td>
+    <td><img src="./screenshots/setting-desktop-real.jpg" /></td>
+  </tr>
+</table>
+
+#### Dashboard mobile
+
+<table>
+  <tr>
+    <th>Expected</th>
+    <th>Reality</th>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/dashboard-mobile-figma.png" height="400" /></td>
+    <td><img src="./screenshots/dashboard-mobile-real.jpg" height="400" /></td>
+  </tr>
+</table>
+
+#### Setting mobile
+
+<table>
+  <tr>
+    <th>Expected</th>
+    <th>Reality</th>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/setting-mobile-figma.png" height="400" /></td>
+    <td><img src="./screenshots/setting-mobile-real.jpg" height="400" /></td>
+  </tr>
+</table>
+
+## Figma URL:
 
 https://www.figma.com/design/Lf57jfEvFsQjNZdQi07qyv/Soar-Front-End-Dev-Task?node-id=0-1&node-type=canvas&t=ARR1PCUzrKTgshvn-0
 

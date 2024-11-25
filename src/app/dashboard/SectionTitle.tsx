@@ -9,7 +9,12 @@ export function SectionTitle({
   className?: ClassValue;
 }>) {
   return (
-    <p className={cn("text-primary font-semibold text-2xl", className)}>
+    <p
+      className={cn(
+        "text-primary font-semibold text-md lg:text-2xl overflow-hidden text-nowrap text-ellipsis",
+        className
+      )}
+    >
       {children}
     </p>
   );

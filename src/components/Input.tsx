@@ -19,20 +19,20 @@ export function Input({
 }: InputProps) {
   return (
     <label
-      className={cn("flex flex-col gap-2 sm:gap-3 group", containerClassName)}
+      className={cn("flex flex-col gap-2 lg:gap-3 group", containerClassName)}
     >
       {label && (
-        <span className="text-black text-sm sm:text-base font-normal">
+        <span className="text-black text-sm lg:text-base font-normal">
           {label}
         </span>
       )}
       <div className="flex items-center gap-4">
         {!!Icon && (
-          <Icon className="text-color-sky shrink-0 group-hover:text-blue" />
+          <Icon className="text-custom-sky shrink-0 group-hover:text-blue" />
         )}
         <input
           className={cn(
-            "py-3 sm:py-4 bg-transparent outline-none w-full text-xs sm:text-small leading-input placeholder:text-placeholder",
+            "py-3 lg:py-4 bg-transparent outline-none w-full text-xs lg:text-rg leading-input placeholder:text-placeholder",
             className
           )}
           {...props}

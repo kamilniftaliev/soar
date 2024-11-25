@@ -23,7 +23,7 @@ export function Tabs({ children }: Props) {
     <div>
       {/* Tab Headers */}
       <div
-        className="flex justify-between sm:justify-start sm:gap-3 border-b border-b-smoke"
+        className="flex justify-between lg:justify-start lg:gap-3 border-b border-b-smoke"
         role="tablist"
         aria-label="Tabs"
       >
@@ -36,7 +36,7 @@ export function Tabs({ children }: Props) {
             id={`tab-${title}`}
             onClick={() => setActiveTab(title)}
             className={cn(
-              "py-2 sm:py-3 px-1.5 sm:px-4 text-color-sky font-medium text-sm sm:text-md",
+              "py-2 lg:py-3 px-1.5 lg:px-4 text-custom-sky font-medium text-sm lg:text-md",
               {
                 "line-below": activeTab === title,
               }

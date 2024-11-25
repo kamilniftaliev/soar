@@ -3,11 +3,9 @@
 import {
   BarChart,
   Bar,
-  Rectangle,
   XAxis,
   YAxis,
   CartesianGrid,
-  Tooltip,
   Legend,
   ResponsiveContainer,
 } from "recharts";
@@ -53,9 +51,13 @@ const data = [
 
 export function WeeklyActivity() {
   return (
-    <div className="col-span-2">
+    <div className="lg:col-span-2">
       <SectionTitle>Weekly Activity</SectionTitle>
-      <ResponsiveContainer className="white-section" width="100%" height={300}>
+      <ResponsiveContainer
+        className="white-section px-4"
+        width="100%"
+        height={300}
+      >
         <BarChart
           width={500}
           height={300}

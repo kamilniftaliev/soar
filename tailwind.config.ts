@@ -11,7 +11,7 @@ export default {
         secondary: "#F5F7FA",
         smoke: "#F4F5F7",
         placeholder: "#8BA3CB",
-        "color-sky": "#718EBF",
+        "custom-sky": "#718EBF",
         blue: "#396AFF",
         azure: "#DFEAF2",
         manatee: "#9199AF",
@@ -25,7 +25,8 @@ export default {
         small: "10px",
       },
       fontSize: {
-        small: "15px",
+        tiny: ["10px", "12px"],
+        xss: ["11px", "13px"],
         xs: ["12px", "14px"],
         sm: ["13px", "15px"],
         rg: ["15px", "18px"],

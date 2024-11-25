@@ -21,10 +21,10 @@ export default function RootLayout({ children }: PropsWithChildren) {
         </style>
       </head>
       <body className="inter font-normal min-h-screen text-black">
-        <div className="flex flex-col sm:grid sm:grid-cols-[250px_1fr] sm:grid-rows-[100px_1fr] min-h-screen">
+        <div className="flex flex-col lg:grid lg:grid-cols-[250px_1fr] lg:grid-rows-[100px_1fr] min-h-screen">
           <Header />
           <Sidebar />
-          <main className="grow col-span-2 sm:col-span-1 py-container sm:py-big-container px-6 sm:px-10 bg-secondary">
+          <main className="grow col-span-2 lg:col-span-1 py-container lg:py-big-container px-6 lg:px-10 bg-secondary">
             {children}
           </main>
         </div>
