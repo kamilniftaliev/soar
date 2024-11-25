@@ -1,3 +1,4 @@
+import { BalanceHistory } from "./dashboard/BalanceHistory";
 import { Cards } from "./dashboard/Cards";
 import { ExpenseStatistics } from "./dashboard/ExpenseStatistics";
 import { QuickTransfer } from "./dashboard/QuickTransfer";
@@ -13,9 +14,7 @@ export default function Dashboard() {
       <WeeklyActivity />
       <ExpenseStatistics />
       <QuickTransfer />
-      <div className="col-span-2">
-        <SectionTitle>Balance History</SectionTitle>
-      </div>
+      <BalanceHistory />
     </div>
   );
 }

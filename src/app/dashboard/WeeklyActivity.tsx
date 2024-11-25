@@ -60,7 +60,7 @@ export function WeeklyActivity() {
           width={500}
           height={300}
           data={data}
-          margin={{ top: 30, left: -30, right: -10, bottom: 0 }}
+          margin={{ top: 30, left: -50, right: -30, bottom: 0 }}
         >
           <Legend
             verticalAlign="top"
@@ -69,12 +69,12 @@ export function WeeklyActivity() {
             iconSize={15}
             wrapperStyle={{
               marginTop: -30,
-              marginRight: 30,
+              marginRight: 60,
             }}
           />
           <CartesianGrid strokeDasharray="2 2" className="opacity-70" />
           <XAxis dataKey="name" className="opacity-70" />
-          <YAxis />
+          <YAxis className="opacity-70" />
           <Bar dataKey="Withdraw" barSize={15} radius={30} fill="#232323" />
           <Bar dataKey="Diposit" barSize={15} radius={30} fill="#396AFF" />
         </BarChart>
